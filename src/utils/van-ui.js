@@ -1,0 +1,30 @@
+import { Popup, Area, Field, Form, RadioGroup, Radio, Tab, Tabs, Dialog, ActionSheet, Rate, Lazyload, Icon, Search, Swipe, SwipeItem, Grid, GridItem, Button, Checkbox, CheckboxGroup, Tabbar, TabbarItem, NavBar, Toast } from 'vant'
+import Vue from 'vue'
+
+Vue.use(Popup)
+Vue.use(Area)
+Vue.use(Field)
+Vue.use(Form)
+Vue.use(RadioGroup)
+Vue.use(Radio)
+Vue.use(Tab)
+Vue.use(Tabs)
+Vue.use(Checkbox)
+Vue.use(CheckboxGroup)
+Vue.use(Button)
+Vue.use(Tabbar)
+Vue.use(TabbarItem)
+Vue.use(NavBar)
+Vue.use(GridItem)
+Vue.use(Search)
+Vue.use(Swipe)
+Vue.use(SwipeItem)
+Vue.use(Grid)
+Vue.use(Icon)
+Vue.use(Lazyload)
+Vue.use(Rate)
+Vue.use(ActionSheet)
+Vue.use(Dialog)
+
+// 在组件内中用this.$toast('提示文案')，组件，非组件中用Toast('提示内容');但是要跟上下面这行代码，不推荐
+Vue.use(Toast)
